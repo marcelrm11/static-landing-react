@@ -8,7 +8,7 @@ function NavLinks(props) {
 
     const linksList = props.links.map(link => {
         return (
-            <li className="nav-item">
+            <li className="nav-item" key={link}>
                 <a className="nav-link" href="#">{link}</a>
             </li>
         )

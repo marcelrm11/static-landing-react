@@ -5,9 +5,9 @@ import NavLinks from "./navbar/nav-links.jsx";
 const brand = "Start Bootstrap";
 const linksList = ["Home", "About", "Services", "Contact"]
 
-function Navbar(props) {
+function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light px-5">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">{brand}</a>
                 {/* button for collapsed menu */}

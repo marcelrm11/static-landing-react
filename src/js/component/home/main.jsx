@@ -3,7 +3,8 @@ import React from "react";
 function Main() {
     return (
         <div>
-            MAIN CONTENT
+            <Hero />
+            <Cards />
         </div>
     )
 }

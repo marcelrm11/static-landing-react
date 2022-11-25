@@ -9,6 +9,7 @@ function Card(props) {
             <div className="card-body text-center">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.text}</p>
+                <hr/>
                 <Button color="primary" label={props.cta} />
             </div>
         </div>

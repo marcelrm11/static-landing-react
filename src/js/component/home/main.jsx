@@ -32,9 +32,9 @@ function Main() {
                 buttonColor={hero.buttonColor}
                 cta={hero.cta}
             />
-            <div className="data-card-group d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-stretch gap-3 my-3 flex-wrap">
+            <article className="data-card-group d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-stretch my-3 flex-wrap">
                 {cards}
-            </div>
+            </article>
         </div>
     )
 }
